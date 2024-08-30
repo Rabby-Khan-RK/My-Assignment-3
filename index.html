@@ -26,11 +26,10 @@
                         
                         primary: 'rgb(73,73,73)',
                         bg_color: 'rgb(171,239,95)',
-                        section_Bg: 'rgb(255,255,255)',
-                        sectio_Bg: 'rgba(255,255,255,0)',
+                        
                     },
                     backgroundImage: {
-                        bannerBg: "url('./')"
+                        'custom_pattern': "url('./image/bg.jpg')"
                     },
 
                     fontFamily: {
@@ -44,9 +43,9 @@
     </script>
 </head>
 
-<body class="font-manrope">
+<body class="font-manrope bg-gradient-to-b from-gray-200">
     <!-- header section start -->
-    <header class="mt-10 lg:mb-16">
+    <header class="pt-10 lg:mb-16 bg-gradient-to- from-slate-50">
         <nav class="w-11/12 mx-auto bg-section_bg">
             <div class="navbar">
                 <div class="navbar-start">
@@ -238,24 +237,54 @@
 
           <!-- Latest Portfolio  section-->
            
-           <div class="text-center mt-32">
-            <button class="text-lg font-bold bg-opacity-30 bg-bg_color w-64 rounded-full mb-5 h-9">
-
-                <i class="fa-solid fa-arrow-right"></i> Explore our Latest works
-            </button>
-            <h1 class="font-extrabold text-4xl">Our Latest Portfolio</h1>
-            <p class="font-medium text-xl py-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
-        </div>
-
-         <!--  commercial section -->
-
-        
-            <div class="grid lg:grid-cols-12 sm:grid-cols-1 gap-3">
-                <div class="lg:flex lg:col-span-8 sm:col-span-1  rounded-xl border border-b-white">
-                    <img class="py-4 px-4 sm:mx-auto" src="./image/img1.png" alt="">
-                    <div class="py-4 px-4 ">
+           <div class="bg-white">
+            <div class="text-center pt-20">
+                <button class="text-lg font-bold bg-opacity-30 bg-bg_color w-64 rounded-full mb-5 h-9">
+    
+                    <i class="fa-solid fa-arrow-right"></i> Explore our Latest works
+                </button>
+                <h1 class="font-extrabold text-4xl">Our Latest Portfolio</h1>
+                <p class="font-medium text-xl py-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+            </div>
+    
+             <!--  commercial section -->
+    
+            
+                <div class="grid lg:grid-cols-12 sm:grid-cols-1 gap-3">
+                    <div class="lg:flex lg:col-span-8 sm:col-span-1  rounded-xl border border-b-white">
+                        <img class="py-4 px-4 sm:mx-auto" src="./image/img1.png" alt="">
+                        <div class="py-4 px-4 ">
+                            <h3 class="font-extrabold text-2xl">Commercial</h3>
+                            <p class="font-medium text-lg pt-3">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                            <div class="lg:flex mt-4">
+                                <h3 class="font-extrabold text-2xl ">View Details </h3>
+                                <div class="w-8 h-8 rounded-full bg-bg_color text-center  pt-1 ">
+                                    <i class="fa-solid fa-arrow-right -rotate-45 "></i>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="lg:col-span-4  mx-auto rounded-xl border border-b-white">
+                        <img class="py-4 px-4 " src="./image/img2.png" alt="">
+    
+                    </div>
+    
+                </div>
+            
+    
+            <!-- commercial section 2 -->
+                <!-- col span 1 -->
+            <div class="grid lg:grid-cols-12  gap-3 py-8 items-center justify-center">
+                <div class="col-span-3 rounded-xl mx-auto sm:w-100%  border border-b-white">
+                    <img class="py-4 px-4" src="./image/img3.png" alt="">
+                </div>
+                <!-- col span 2 -->
+                <div class="lg:col-span-6 sm:mx-auto  sm:col-span-1 lg:flex rounded-xl border border-b-white">
+                    <img class="py-4 px-4 mx-auto" src="./image/img4.png" alt="">
+                    <div class="py-4 px-4">
                         <h3 class="font-extrabold text-2xl">Commercial</h3>
-                        <p class="font-medium text-lg pt-3">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                        <p class="font-medium text-lg pt-3">The barn house captivates with its blend of rustic charm and modern.</p>
                         <div class="lg:flex mt-4">
                             <h3 class="font-extrabold text-2xl ">View Details </h3>
                             <div class="w-8 h-8 rounded-full bg-bg_color text-center  pt-1 ">
@@ -263,76 +292,50 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div class="lg:col-span-4  mx-auto rounded-xl border border-b-white">
-                    <img class="py-4 px-4 " src="./image/img2.png" alt="">
-
-                </div>
-
-            </div>
-        
-
-        <!-- commercial section 2 -->
-            <!-- col span 1 -->
-        <div class="grid lg:grid-cols-12  gap-3 my-8 items-center justify-center">
-            <div class="col-span-3 rounded-xl mx-auto sm:w-100%  border border-b-white">
-                <img class="py-4 px-4" src="./image/img3.png" alt="">
-            </div>
-            <!-- col span 2 -->
-            <div class="lg:col-span-6 sm:mx-auto  sm:col-span-1 lg:flex rounded-xl border border-b-white">
-                <img class="py-4 px-4 mx-auto" src="./image/img4.png" alt="">
-                <div class="py-4 px-4">
-                    <h3 class="font-extrabold text-2xl">Commercial</h3>
-                    <p class="font-medium text-lg pt-3">The barn house captivates with its blend of rustic charm and modern.</p>
-                    <div class="lg:flex mt-4">
-                        <h3 class="font-extrabold text-2xl ">View Details </h3>
-                        <div class="w-8 h-8 rounded-full bg-bg_color text-center  pt-1 ">
-                            <i class="fa-solid fa-arrow-right -rotate-45 "></i>
-                        </div>
-                    </div>
+                <!-- col span 3 -->
+                <div class="col-span-3 mx-auto rounded-xl border border-b-white">
+                    <img class="py-4 px-4" src="./image/img5.png" alt="">
                 </div>
             </div>
-            <!-- col span 3 -->
-            <div class="col-span-3 mx-auto rounded-xl border border-b-white">
-                <img class="py-4 px-4" src="./image/img5.png" alt="">
-            </div>
-        </div>
+           </div>
 
         <!-- next project section -->
-         <div class="text-center my-24">
-            <button class="text-lg font-bold bg-opacity-30 bg-bg_color w-44 rounded-full mb-5 h-9">
-
-                <i class="fa-solid fa-arrow-right"></i> Let’s Connect
-            </button>
-
-            <h1 class="font-bold text-4xl py-3">Let’s Discuss Next Project</h1>
-            <p class="font-medium text-lg py-3">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
-         </div>
-        <!-- project form section -->
-         <div class="lg:mx-40">
-            <form action="#">
-                <div class="grid lg:grid-cols-2 gap-5">
-                    <input type="text" placeholder="Full Name*" class=" border border-gray-300 py-2 px-4 rounded-full">
-                    <input type="text" placeholder="Last Name*" class=" border border-gray-300 py-2 px-4 rounded-full">
+        <div class="bg-custom_pattern pb-8">
+            <div class="text-center py-24">
+                <button class="text-lg font-bold bg-opacity-30 bg-bg_color w-44 rounded-full mb-5 h-9">
     
-                </div>
-                <div class="grid lg:grid-cols-2 gap-5 mt-5">
-                    <input type="text" placeholder="Phone Number*" class=" border border-gray-300 py-2 px-4 rounded-full">
-                    <input type="text" placeholder="Email Number*" class=" border border-gray-300 py-2 px-4 rounded-full">
+                    <i class="fa-solid fa-arrow-right"></i> Let’s Connect
+                </button>
     
-                </div>
-                <div>
-                    <input type="text" placeholder="Write your message here" class=" border border-gray-300 py-2 px-4 rounded-xl  w-full mt-5 pb-60">
-                </div>
-             </form>
-             <div class="flex my-6 justify-center items-center bg-bg_color rounded-full">
-                <h3 class="font-extrabold text-xl py-3 pr-4">Send Mail</h3>
-                <div class=" w-8 h-8 rounded-full bg-black text-center  pt-1 ">
-                    <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
-                </div>
+                <h1 class="font-bold text-4xl py-3">Let’s Discuss Next Project</h1>
+                <p class="font-medium text-lg py-3">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
              </div>
-         </div>
+            <!-- project form section -->
+             <div class="lg:mx-40">
+                <form action="#">
+                    <div class="grid lg:grid-cols-2 gap-5">
+                        <input type="text" placeholder="Full Name*" class=" border border-gray-300 py-2 px-4 rounded-full">
+                        <input type="text" placeholder="Last Name*" class=" border border-gray-300 py-2 px-4 rounded-full">
+        
+                    </div>
+                    <div class="grid lg:grid-cols-2 gap-5 mt-5">
+                        <input type="text" placeholder="Phone Number*" class=" border border-gray-300 py-2 px-4 rounded-full">
+                        <input type="text" placeholder="Email Number*" class=" border border-gray-300 py-2 px-4 rounded-full">
+        
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Write your message here" class=" border border-gray-300 py-2 px-4 rounded-xl  w-full mt-5 pb-60">
+                    </div>
+                 </form>
+                 <div class="flex my-6 justify-center items-center bg-bg_color rounded-full">
+                    <h3 class="font-extrabold text-xl py-3 pr-4">Send Mail</h3>
+                    <div class=" w-8 h-8 rounded-full bg-black text-center  pt-1 ">
+                        <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                    </div>
+                 </div>
+             </div>
+        </div>
 
     </main>
 
